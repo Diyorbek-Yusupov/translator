@@ -12,8 +12,8 @@ import { Link } from "react-router-dom";
 
 export default function Header({ toggleDrawer }) {
    return (
-      <Box sx={{ flexGrow: 1 }}>
-         <AppBar position="static" sx={{ p: 1.5 }}>
+      <Box sx={{ flexGrow: 1  }}>
+         <AppBar position="static" sx={{ p: 1.5, height:"10vh", minHeight: "72px"}}>
             <Box sx={{ display: "flex", justifyContent: "space-between" }}>
                <Toolbar variant="dense">
                   <IconButton
