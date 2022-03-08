@@ -1,0 +1,8 @@
+.lan-selection {
+    display: flex;
+    width: 100%;
+}
+.side {
+    width: 50%;
+    height: 3rem;
+}
